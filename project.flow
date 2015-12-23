@@ -1,0 +1,36 @@
+{
+
+  luxe:{
+    window: {
+      width:500,
+      height:700,
+      title:'luxe_bug_entity_init',
+      fullscreen:false,
+      resizable:true,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'luxe_bug_entity_init',
+    version : '1.0.0',
+    author : 'luxeengine',
+
+    app : {
+      name : 'luxe_empty',
+      package : 'com.luxeengine.empty'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+
+  }
+
+}
